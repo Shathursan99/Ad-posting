@@ -1,0 +1,324 @@
+.navbar-bg {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .signIn-bg{
+    background-image: url('./images/loginImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .signUp-bg{
+    background-image: url('./images/signUp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  .sell-bg{
+    background-image: url('./images/sell.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .navbar-logo{
+    background-image: url("./images/logo.png");
+    background-size: cover; /* Ensure the image covers the container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    width: 200px;
+    height: 200px; /* Adjust the height as needed */
+    display: block;
+    margin: 10px 0 0 -80px;
+  }
+
+
+.title{
+    width: 614px;
+height: 78.777px;
+flex-shrink: 0;
+color: #141313;
+font-family: Outfit;
+font-size: 35px;
+font-style: normal;
+text-align:left;
+font-weight: 700;
+line-height: 43px; /* 122.857% */
+}
+
+.subtitle{
+    width: 505px;
+height: 100px;
+flex-shrink: 0;color: #000;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+text-align: left;
+font-weight: 400;
+line-height: 17.5px; /* 116.667% */
+}
+.subtitle2{
+    color: #000;
+font-family: Jacques Francois;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 453px;
+text-align: left;
+height: 25px;
+flex-shrink: 0;
+}
+
+.termsAndCondition{
+  width: 1440px;
+height: 172px;
+flex-shrink: 0;
+background: rgba(121, 71, 130, 0.88);
+}
+
+.termsAndConditionText{
+  width: 1351.011px;
+height: 147px;
+flex-shrink: 0;
+color: #FFFBFB;
+text-align: justify;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.square-button {
+  width: 100px;
+  height: 100px;
+  text-align: center; /* Center the content horizontally */
+}
+
+.square-button-img {
+  width: 100px;
+  height: 100px;
+  background-image: url('./images/car.svg');
+  background-size: 100% 100%; /* Cover the entire button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.adfont{
+    width: 107.608px;
+height: 15.77px;
+flex-shrink: 0;
+color: #FCF8F8;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.breakline{
+    width: 1196px;
+height: 6px;
+width: 100%;
+flex-shrink: 0;
+border-radius: 50px;
+background: #E7B022;
+}
+
+.txtBackLabel{
+    width: 656.748px;
+height: 40px;
+flex-shrink: 0;
+background: #303231;
+}
+
+.carBg{
+    background: url('./images/carbg.png'), lightgray 50% / cover no-repeat;
+    width: 1267.384px;
+    height: 669.476px;
+    flex-shrink: 0;
+    
+}   
+
+.squrePurple{
+    width: 200px;
+    height: 200px;
+    transform: rotate(-44.898deg);
+    flex-shrink: 0;
+    background: #9553A0;
+    z-index: -1;
+}
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.signIn_Font {
+    color: #555;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16.156px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3000px; 
+  }
+
+  .centered-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    background-color: #AD38C1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-tic {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    background-color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-svg {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.sucess-font{
+    display: flex;
+width: 204.713px;
+height: 27.591px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #794782;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* Purple background for the Submit button */
+.purple-bg {
+    background-color: #794782;
+    color: white; 
+  }
+  
+  .btn-with-margin {
+    margin: 10px; 
+    border-radius: 10%;
+  }
+ 
+  .purple-border {
+    border: 2px solid #794782;
+    color: #794782; 
+  }
+  
+ 
+  .purple-bg:hover,
+  .purple-border:hover {
+    background-color: #AD38C1;
+    border-color: #AD38C1;
+    color: white; 
+  }
+  
+  
+
+
+
+
+
+
+  
+
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 10%;
+
+  }
+  
+
+h1 {
+	font-size: 16px;
+	font-weight: 300;
+	color: #666;
+}
+
+.dropzone {
+	width: 100px;
+	height: 80px;
+	border: 1px dashed #999;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.upload-icon {
+	margin: 25px 2px 2px 2px;
+}
+
+.upload-input {
+	position: relative;
+	top: -62px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+
+
+
+
+
